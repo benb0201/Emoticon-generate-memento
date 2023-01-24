@@ -1,0 +1,6 @@
+@startuml
+class Caretaker {
+    + addMemento(history:List<Memento>, redoList:List<Memento>, emoticon:List<Shape>) : void
+    + removeMemento(history:List<Memento>, redoList:List<Memento>, emoticon:List<Shape>) : void
+}
+@enduml
